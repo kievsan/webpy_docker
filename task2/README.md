@@ -2,7 +2,7 @@
 
 1. Загрузите, установите и запустите [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
-2. Скопируйте репозиторий: 
+2. Загрузите репозиторий: 
     ```
     git clone --branch docker2 --single-branch https://github.com/kievsan/stocks_products
     ```
@@ -12,9 +12,14 @@
     ```
 4. Запустите контейнер:
     ```
-    docker run -d -p 8000:8000 --name stocks_products stocks_products
+    docker run -d -p 8000:8080 --name stocks_products stocks_products
     ```
-Чтобы остановить контейнер, выполните:
+5. Проверка:
+    ```
+    curl localhost:8000/api/v1/
+    docker logs stocks_products
+    ```
+6. Чтобы остановить контейнер, выполните:
     ```
     docker container stop stocks_products
     ```
