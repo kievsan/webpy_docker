@@ -12,7 +12,7 @@
     ```
 4. Запустите контейнер:
     ```
-    docker run -d -p 8000:8080 --name stocks_products stocks_products
+    docker run -d -p 8000:8000 --name stocks_products stocks_products
     ```
 5. Проверка:
     ```
