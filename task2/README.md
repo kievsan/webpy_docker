@@ -2,7 +2,7 @@
 
 1. Загрузите, установите и запустите [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
-2. Загрузите репозиторий: 
+2. Загрузите репозиторий [CRUD: Склады и запасы](https://github.com/kievsan/stocks_products/tree/docker2): 
     ```
     git clone --branch docker2 --single-branch https://github.com/kievsan/stocks_products
     ```
